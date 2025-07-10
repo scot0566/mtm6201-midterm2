@@ -1,0 +1,107 @@
+body {
+    color: white;
+}
+
+.header-content .logo {
+
+}
+
+.hero {
+  position: relative;
+  background: url(../images/hero-background.jpg) no-repeat center center/cover;
+  color: white;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.cta-button {
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+    background-color: beige;
+}
+
+main h2 {
+    color: #d69e3d;
+    font-size: 15px;
+}
+
+main h3 {
+    color: black;
+}
+
+.imggrid1 img {
+    width: 100%;
+}
+
+.imggrid1 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.img1 { 
+    grid-area: 1 / 1 / 2 / 3; 
+}
+
+.img2 { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.img3 { 
+    grid-area: 2 / 2 / 3 / 3; 
+}
+
+.img4 { 
+    grid-area: 3 / 1 / 4 / 2; 
+}
+
+.img5 { 
+    grid-area: 3 / 2 / 4 / 3; 
+}
