@@ -2,10 +2,6 @@ body {
     color: white;
 }
 
-.header-content .logo {
-
-}
-
 .hero {
   position: relative;
   background: url(../images/hero-background.jpg) no-repeat center center/cover;
